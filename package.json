@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "The api layer for the lightbible app - takes client requests and sends back json",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"error: there are no tests yet\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Adam",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.4"
+  }
+}
